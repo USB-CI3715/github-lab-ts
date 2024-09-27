@@ -1,5 +1,5 @@
 // util function that computes the fibonacci numbers
-export const fibonacci = (n) => {
+export const fibonacci = (n: number)=> {
   if (n < 0) {
     return -1;
   } else if (n == 0) {
